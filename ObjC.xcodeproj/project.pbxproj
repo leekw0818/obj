@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3B1CBB11CF43D72006A7F52 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CBB01CF43D72006A7F52 /* Fraction.m */; };
+		C3B1CBB41CF43F11006A7F52 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CBB31CF43F11006A7F52 /* Calculator.m */; };
 		C3EE0DB31CF3ED9E006CCDE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3EE0DB21CF3ED9E006CCDE6 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 /* Begin PBXFileReference section */
 		C3B1CBAF1CF43D72006A7F52 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		C3B1CBB01CF43D72006A7F52 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		C3B1CBB21CF43F11006A7F52 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		C3B1CBB31CF43F11006A7F52 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		C3EE0DAF1CF3ED9E006CCDE6 /* ObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3EE0DB21CF3ED9E006CCDE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +66,8 @@
 				C3EE0DB21CF3ED9E006CCDE6 /* main.m */,
 				C3B1CBAF1CF43D72006A7F52 /* Fraction.h */,
 				C3B1CBB01CF43D72006A7F52 /* Fraction.m */,
+				C3B1CBB21CF43F11006A7F52 /* Calculator.h */,
+				C3B1CBB31CF43F11006A7F52 /* Calculator.m */,
 			);
 			path = ObjC;
 			sourceTree = "<group>";
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3B1CBB41CF43F11006A7F52 /* Calculator.m in Sources */,
 				C3EE0DB31CF3ED9E006CCDE6 /* main.m in Sources */,
 				C3B1CBB11CF43D72006A7F52 /* Fraction.m in Sources */,
 			);
